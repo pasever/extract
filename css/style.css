@@ -1,0 +1,50 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #09f;
+}
+a:hover {
+  text-decoration: none;
+}
+.fluid_container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+#camera_wrap_4 {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin-bottom: 0!important;
+
+  right: 0;
+  top: 0;
+}
+.camera_bar {
+  z-index: 2;
+}
+.camera_overlayer {
+  opacity: .1;
+}
+
+.caption {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	left: 0;
+	top: 50%;
+	margin-top: 0px;
+	font: 300 64px/40px 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	right: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
