@@ -48,3 +48,8 @@ a:hover {
 	-webkit-box-sizing: border-box;
 	-o-box-sizing: border-box;
 }
+
+li h1 {
+  color: red; 
+  font-size: 36px; 
+}
