@@ -58,7 +58,8 @@ li h1 {
   height: 300px;
   width: 400px;
   border-radius: 10px;
-  float: left;
+  margin-top: 8%;
+  
 }
 
 #aboutme {
@@ -72,5 +73,11 @@ li h1 {
 }
 
 #aboutMeText {
-  float: right;
+padding-top: 2%;
 }
+
+.aboutMeHeader {
+  padding-top: 1.5%;  
+  padding-left: 8%;
+}
+
