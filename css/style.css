@@ -53,3 +53,24 @@ li h1 {
   color: red; 
   font-size: 36px; 
 }
+
+#myphoto {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  float: left;
+}
+
+#aboutme {
+  background-color: silver;
+  height: 100%;
+}
+
+#skills {
+  height: 100%;
+  background-color: rgb(189, 201, 188);
+}
+
+#aboutMeText {
+  float: right;
+}
