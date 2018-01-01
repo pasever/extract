@@ -3,13 +3,15 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Another final portfolio</title>
+  <title>Final-final portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/reset.css">
   <link rel='stylesheet' id='camera-css' href='css/camera.css' type='text/css' media='all'>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
+
+<!-- body starts  -->
 
 <body>
   <nav class="navbar navbar-fixed-top">
@@ -20,7 +22,7 @@
           <li><a href="#aboutme"><h1>About</me></h1></a></li>
           <li><a href="#skills"><h1>Skills<h1></a></li>
           <li><a href="#portfolio"><h1>Portfolio</h1></a></li>
-          <li><a href="#contacts"><h1>Contact<h1></a></li>
+          <li><a href="#contact"><h1>Contact<h1></a></li>
         </ul>
       </div>
       <!-- /.nav-collapse -->
@@ -50,6 +52,7 @@
   </div>
   <!-- .fluid_container -->
 
+  <!-- aboutme -->
   <section id="aboutme">
     <div class="container">
       <div class="row">
@@ -57,8 +60,8 @@
           <h1 class="section-heading text-uppercase aboutMeHeader">About Me</h1>
           <div class="col-lg-5">
             <img src="images/retouch12.jpeg" alt="" class="fleft" id="myphoto">
+            <button id="blind" class="">Me Resume</button>
           </div>
-          
 
           <div id="aboutMeText" class="col-lg-7">
             <h4 class="section-subheading">Just six months ago I was sitting in the lobby of 
@@ -77,7 +80,7 @@
           So, currently I am attending the Boot Camp at the University of North Carolina in Charlotte and so far I am loving it. 
           I love the city, love the College, love the professors and I can not wait to see what’s next. 
           And by the way, the MBA interview went well.</h4>
-          <br>
+            <br>
             <h4 class="section-subheading">
           A couple of fun facts about me: - I played basketball for the Junior National team back in Europe - 
           Before I started the boot camp I spoke 4 languages and I can’t wait to find out how many I am going to 
@@ -87,7 +90,9 @@
       </div>
     </div>
   </section>
+  <!-- /aboutme -->
 
+  <!-- skills -->
   <section id="skills">
     <div class="container">
       <div class="row">
@@ -144,9 +149,60 @@
         </div>
       </div>
     </div>
-
+  </section>
+  <!-- /skills -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-left">
+          <h1 class="section-heading text-uppercase aboutMeHeader">Projects</h1>
+          <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
+          </div>
+          <div class="col-lg-4">
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="section-heading text-uppercase aboutMeHeader">Contact me</h1>
+
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-8">
+            <form id="contactme">
+              <h3>Get in touch with me if you have any questions</h3>
+              <br>
+              <fieldset>
+                <label class="name">
+                  <input type="text" name="name" placeholder="Name*:" value="">
+                </label>
+                <label class="email">
+                  <input type="text" name="email" placeholder="E-mail*:" value="">
+                </label>
+                <label class="phone">
+                  <input type="text" name="phone" placeholder="Telephone:" value="">
+                </label>
+                <a href="#" class="btn" data-type="submit" placeholder="Submit">Submit</a>
+                <label class="message">
+                  <br>
+                <textarea name="message" rows="8" cols="100" placeholder="Message*:"></textarea>
+              </label>
+              </fieldset>
+            </form>
+          </div>
+          <div class="col-lg-1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script type='text/javascript' src='javascript/camera/jquery.min.js'></script>
   <script type='text/javascript' src='javascript/camera/jquery.mobile.customized.min.js'></script>
@@ -154,6 +210,7 @@
   <script type='text/javascript' src='javascript/camera/camera.min.js'></script>
   <script type='text/javascript' src='javascript/camera/cam.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/public/main.js"></script>
 </body>
 
 </html>
