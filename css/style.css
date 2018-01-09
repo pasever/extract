@@ -49,8 +49,8 @@ a:hover {
 }
 
 li h1 {
-  color: red; 
-  font-size: 36px; 
+  color: red;
+  font-size: 36px;
 }
 
 #myphoto {
@@ -58,17 +58,17 @@ li h1 {
   width: 400px;
   border-radius: 10px;
   margin-top: 8%;
-  
+
 }
 
 #aboutme {
-  background-color: silver;
+  background-color: rgb(183, 195, 198);
   height: 100%;
 }
 
 #skills {
   height: 100%;
-  background-color: rgb(189, 201, 188);
+  background-color: rgb(139, 149, 156);
 }
 
 #aboutMeText {
@@ -76,7 +76,7 @@ padding-top: 2%;
 }
 
 .aboutMeHeader {
-  padding-top: 1.5%;  
+  padding-top: 1%;
   padding-left: 30px;
 }
 
@@ -87,9 +87,17 @@ padding-top: 2%;
 
 #contact {
   height: 100%;
-  background-color: rgb(146, 236, 230);  
+  background-color: rgb(146, 236, 230);
 }
 
 #contactme {
   padding-top: 20%;
+}
+ul li h1 {
+  color: rgba(143, 76, 76, 0.8);
+  font-weight: normal;
+  text-shadow: 1px 1px 2px #360000;
+  font-size: 30px;
+  letter-spacing: 2px;
+
 }
